@@ -19,7 +19,7 @@ opensource-soc/
 
 Architecture:
 
-![Picture1](images/Picture1.png)
+<p align="center"> <img src="images/Picture1.png"> </p>
 
 
 ## Assumptions
