@@ -17,7 +17,7 @@ opensource-soc/
     ├── poc_screenshot_1.png   # Cassandra running 
     └── poc_screenshot_2.png   # TheHive running 
 
-Architecture:
+# Architecture:
 
 <p align="center"> <img src="images/Picture1.png"> </p>
 
