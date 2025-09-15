@@ -1,4 +1,4 @@
-# Open SOC — ELK + TheHive + Cortex + MISP 
+# Open SOC with  ELK + TheHive + Cortex + MISP 
 
 This repository documents a personal proof-of-concept Open SOC built on **Ubuntu VMs in AWS**.
 
@@ -16,6 +16,10 @@ opensource-soc/
 └── screenshots/
     ├── poc_screenshot_1.png   # Cassandra running 
     └── poc_screenshot_2.png   # TheHive running 
+
+Architecture:
+
+images/Picture1.png
 
 ## Assumptions
 - Provider: AWS (single VPC).
