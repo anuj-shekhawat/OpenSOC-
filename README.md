@@ -19,7 +19,7 @@ opensource-soc/
 
 Architecture:
 
-![Picture1](https://github.com/anuj-shekhawat/OpenSOC-with-ELK/raw/main/images/Picture1.png)
+![Picture1](images/Picture1.png)
 
 
 ## Assumptions
