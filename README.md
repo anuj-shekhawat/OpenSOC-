@@ -19,8 +19,7 @@ opensource-soc/
 
 # Architecture:
 
-<p align="center"> <img src="images/Picture1.png"> </p>
-
+<img width="624" height="276" alt="image" src="https://github.com/user-attachments/assets/edbd79aa-e35a-4a14-a021-8202b284ca2f" />
 
 ## Assumptions
 - Provider: AWS (single VPC).
