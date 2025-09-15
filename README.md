@@ -19,7 +19,7 @@ opensource-soc/
 
 Architecture:
 
-images/Picture1.png
+[images/Picture1.png](https://github.com/anuj-shekhawat/OpenSOC-with-ELK/blob/main/images/Picture1.png)
 
 ## Assumptions
 - Provider: AWS (single VPC).
