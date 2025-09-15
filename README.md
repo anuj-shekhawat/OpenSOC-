@@ -14,5 +14,5 @@ opensource-soc/
 ├── INSTALL.md
 ├── architecture_diagram.png
 └── screenshots/
-    ├── poc_screenshot_1.png   # Cassandra running (systemctl)
-    └── poc_screenshot_2.png   # TheHive running (systemctl)
+    ├── poc_screenshot_1.png   # Cassandra running 
+    └── poc_screenshot_2.png   # TheHive running 
