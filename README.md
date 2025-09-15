@@ -19,7 +19,7 @@ opensource-soc/
 
 Architecture:
 
-<img src="images/Picture1.png" alt="Cassandra running" width="500"/>
+![GitHub Logo]([https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png](https://github.com/anuj-shekhawat/OpenSOC-with-ELK/blob/main/images/Picture1.png))
 
 
 ## Assumptions
