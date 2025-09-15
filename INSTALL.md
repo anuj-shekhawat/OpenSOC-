@@ -10,8 +10,8 @@
 ---
 
 ## Phase 1: ELK
+
 1. Install Java
-```bash
 sudo apt update
 sudo apt install -y openjdk-11-jdk
 
