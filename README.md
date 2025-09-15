@@ -8,10 +8,11 @@ This repository documents a personal proof-of-concept Open SOC built on **Ubuntu
 **Phase 2 (in progress):** TheHive + Cassandra + Cortex + MISP on VM2 — alert management, case response, enrichment.
 
 ## Repository structure
+```text
 opensource-soc/
 ├── README.md
 ├── INSTALL.md
 ├── architecture_diagram.png
 └── screenshots/
-    ├── poc_screenshot_1.png   # Cassandra running 
-    └── poc_screenshot_2.png   # TheHive running 
+    ├── poc_screenshot_1.png   # Cassandra running (systemctl)
+    └── poc_screenshot_2.png   # TheHive running (systemctl)
