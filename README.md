@@ -19,7 +19,7 @@ opensource-soc/
 
 Architecture:
 
-![GitHub Logo]([https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png](https://github.com/anuj-shekhawat/OpenSOC-with-ELK/blob/main/images/Picture1.png))
+![Picture1](https://github.com/anuj-shekhawat/OpenSOC-with-ELK/raw/main/images/Picture1.png)
 
 
 ## Assumptions
