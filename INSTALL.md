@@ -9,7 +9,7 @@
 
 ---
 
-## Phase 1 — ELK
+## Phase 1: ELK
 1. Install Java
 ```bash
 sudo apt update
@@ -32,5 +32,30 @@ sudo systemctl enable --now kibana
 sudo apt install filebeat
 sudo systemctl enable --now filebeat
 
-## Phase 2 — TheHive + Cassandra + Cortex + MISP
+---
+
+## Phase 2: TheHive + Cassandra + Cortex + MISP
+Cassandra
+
+sudo apt install cassandra
+sudo systemctl enable --now cassandra
+
+
+PoC screenshot: poc_screenshot_1.png
+
+TheHive
+
+sudo apt install thehive
+sudo systemctl enable --now thehive
+
+
+PoC screenshot: poc_screenshot_2.png
+
+Cortex & MISP
+
+Install via official docs.
+
+Integrate Cortex analyzers with TheHive.
+
+Connect MISP as a threat intel source.
 
