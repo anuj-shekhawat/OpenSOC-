@@ -1,7 +1,6 @@
 # Open SOC — ELK + TheHive/Cortex + MISP (Proof of Concept)
 
 This repository documents a personal proof-of-concept Open SOC built on **Ubuntu VMs in AWS**.
-It mirrors the approach from: [BlackPerl-DFIR/SOC-OpenSource](https://github.com/BlackPerl-DFIR/SOC-OpenSource).
 
 **Project author:** Poonam Agarwal  
 **Scope:** Single VPC with 2 primary VMs + separate log generator VM (Linux/Windows/Snort).  
