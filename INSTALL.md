@@ -39,13 +39,11 @@ sudo systemctl enable --now filebeat
 sudo apt install cassandra
 sudo systemctl enable --now cassandra
 
-  PoC screenshot: poc_screenshot_1.png
 
 2. TheHive
 sudo apt install thehive
 sudo systemctl enable --now thehive
 
-  PoC screenshot: poc_screenshot_2.png
 
 3. Cortex & MISP
 
