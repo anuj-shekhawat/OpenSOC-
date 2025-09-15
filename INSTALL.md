@@ -1,0 +1,36 @@
+# INSTALL.md
+
+## Assumptions
+- AWS VPC with 3 VMs:
+  - VM1: ELK (Elasticsearch, Logstash, Kibana)
+  - VM2: TheHive, Cassandra, Cortex, MISP
+  - VM3: Log generator (Linux/Windows, Snort)
+- Ubuntu 20.04/22.04 LTS
+
+---
+
+## Phase 1 — ELK
+1. Install Java
+```bash
+sudo apt update
+sudo apt install -y openjdk-11-jdk
+
+2. Install Elasticsearch
+wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+sudo apt install apt-transport-https
+echo "deb https://artifacts.elastic.co/packages/8.x/apt stable main" | \
+  sudo tee /etc/apt/sources.list.d/elastic-8.x.list
+sudo apt update && sudo apt install elasticsearch
+sudo systemctl enable --now
+elasticsearch
+
+3. Install Kibana
+sudo apt install kibana
+sudo systemctl enable --now kibana
+
+4. Install Logstash / Filebeat
+sudo apt install filebeat
+sudo systemctl enable --now filebeat
+
+## Phase 2 — TheHive + Cassandra + Cortex + MISP
+
