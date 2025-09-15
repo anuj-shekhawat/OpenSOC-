@@ -35,27 +35,21 @@ sudo systemctl enable --now filebeat
 ---
 
 ## Phase 2: TheHive + Cassandra + Cortex + MISP
-Cassandra
-
+1. Cassandra
 sudo apt install cassandra
 sudo systemctl enable --now cassandra
 
-
 PoC screenshot: poc_screenshot_1.png
 
-TheHive
-
+2. TheHive
 sudo apt install thehive
 sudo systemctl enable --now thehive
 
-
 PoC screenshot: poc_screenshot_2.png
 
-Cortex & MISP
+3. Cortex & MISP
 
 Install via official docs.
-
 Integrate Cortex analyzers with TheHive.
-
 Connect MISP as a threat intel source.
 
