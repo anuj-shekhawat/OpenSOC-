@@ -23,7 +23,8 @@ Inbound Security Rules for ELK SIEM VM
 sudo apt update
 sudo apt install -y openjdk-11-jdk
 
-
+![AWS Diagram1](images/Picture2.png)
+----
 
 3. Install Elasticsearch
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
@@ -34,9 +35,15 @@ sudo apt update && sudo apt install elasticsearch
 sudo systemctl enable --now
 elasticsearch
 
+![AWS Diagram1](images/Picture7.png)
+----
+
 4. Install Kibana
 sudo apt install kibana
 sudo systemctl enable --now kibana
+
+![AWS Diagram1](images/Picture8.png)
+---
 
 5. Install Logstash / Filebeat
 sudo apt install filebeat
