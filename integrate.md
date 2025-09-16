@@ -39,7 +39,7 @@ Send the following JSON payload to create a test case:
   "tlp": 3,
   "tags": ["automatic", "creation"]
 }
-
+```
 ----
 
 
@@ -58,7 +58,7 @@ Send the following JSON payload to create a test case:
 
 SSH into TheHive server and edit `/etc/thehive/application.conf`:
 
-```hocon
+``json
 cortex {
   servers: [
     {
