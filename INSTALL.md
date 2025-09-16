@@ -7,9 +7,13 @@
   - VM3: Log generator (Linux/Windows, Snort)
 - Ubuntu 20.04/22.04 LTS
 
+
+
 Ubuntu VM dedicated to ELK SIEM
 ![AWS Diagram](images/AWspic.png)
 ---
+
+
 Inbound Security Rules for ELK SIEM VM
 ![AWS Diagram1](images/awspi1.png)
 ---
