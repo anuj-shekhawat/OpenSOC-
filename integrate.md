@@ -58,7 +58,7 @@ Send the following JSON payload to create a test case:
 
 SSH into TheHive server and edit `/etc/thehive/application.conf`:
 
-``json
+```hocon
 cortex {
   servers: [
     {
