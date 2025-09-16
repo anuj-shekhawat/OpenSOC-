@@ -7,8 +7,7 @@ This repository documents a personal proof-of-concept Open SOC built on **Ubuntu
 **Phase 1 (completed):** ELK (Elasticsearch, Logstash, Kibana) on VM1 — SIEM ingestion, dashboards, rule tuning.  
 **Phase 2 (in progress):** TheHive + Cassandra + Cortex + MISP on VM2 — alert management, case response, enrichment.
 
-## Repository structure
-```text
+# Repository structure
 opensource-soc/
 ├── README.md
 ├── INSTALL.md
