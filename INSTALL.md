@@ -45,6 +45,7 @@ sudo systemctl enable --now kibana
 ![AWS Diagram1](images/Picture8.png)
 ---
 
+
 5. Install Logstash / Filebeat
 sudo apt install filebeat
 sudo systemctl enable --now filebeat
