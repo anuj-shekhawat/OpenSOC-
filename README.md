@@ -20,7 +20,7 @@ This repository documents a personal proof-of-concept Open SOC built on **Ubuntu
   - VM2 (TheHive stack): TheHive, Cassandra, Cortex, MISP (TheHive + Cortex + MISP can be colocated for PoC)
   - VM3 (Log generator): Linux or Windows (snort, syslog, agent, etc.)
 - Ubuntu 20.04 LTS or 22.04 LTS (commands below tested for these).
-- You have sudo on each VM and basic networking (security groups/ports) opened between VMs:
+- I have sudo on each VM and basic networking (security groups/ports) opened between VMs:
   - Elasticsearch: 9200 (cluster/HTTP) - restrict to internal VPC
   - Kibana: 5601 (web UI)
   - TheHive: 9000 (default UI port)
@@ -30,7 +30,7 @@ This repository documents a personal proof-of-concept Open SOC built on **Ubuntu
 
 ---
 
-## Quick notes (compatibility)
+## Quick notes
 - TheHive 5.3+ supports Elasticsearch 8.x (and OpenSearch in some cases). Check TheHive/Cortex docs for exact supported ES versions for the version you install. :contentReference[oaicite:0]{index=0}
 - Cassandra recommended: 4.1.x for TheHive. :contentReference[oaicite:1]{index=1}
 - Use Java 11 (TheHive recommended Amazon Corretto 11). :contentReference[oaicite:2]{index=2}
