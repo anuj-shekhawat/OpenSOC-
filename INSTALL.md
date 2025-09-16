@@ -7,7 +7,7 @@
   - VM3: Log generator (Linux/Windows, Snort)
 - Ubuntu 20.04/22.04 LTS
 
-- `(images/awspi1.png)`
+`(images/awspi1.png)`
 ---
 
 ## Phase 1: ELK
