@@ -9,7 +9,7 @@
 
 Ubuntu VM dedicated to ELK SIEM
 ![AWS Diagram](images/AWspic.png)
-
+---
 Inbound Security Rules for ELK SIEM VM
 ![AWS Diagram1](images/awspi1.png)
 ---
