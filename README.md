@@ -19,7 +19,7 @@ opensource-soc/
 
 ## Architecture
 
-![Architecture Diagram](archi.png)
+![Architecture Diagram](images/archi.png)
 
 
 ## Assumptions
