@@ -17,9 +17,10 @@ opensource-soc/
     ├── poc_screenshot_1.png   # Cassandra running 
     └── poc_screenshot_2.png   # TheHive running 
 
-# Architecture:
+## Architecture
 
-<img width="624" height="276" alt="image" src="https://github.com/user-attachments/assets/edbd79aa-e35a-4a14-a021-8202b284ca2f" />
+![Architecture Diagram](archi.png)
+
 
 ## Assumptions
 - Provider: AWS (single VPC).
