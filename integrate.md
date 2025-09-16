@@ -39,3 +39,37 @@ Send the following JSON payload to create a test case:
   "tlp": 3,
   "tags": ["automatic", "creation"]
 }
+
+
+
+----
+
+## TheHive → Cortex
+---
+
+## Step 1: Create a Cortex user
+
+- Log in to Cortex UI.  
+- Create a new user with **Org-Admin Role**.  
+- Generate an API key.  
+
+---
+
+## Step 2: Configure Cortex in TheHive
+
+SSH into TheHive server and edit `/etc/thehive/application.conf`:
+
+```hocon
+cortex {
+  servers: [
+    {
+      name: "Cortex1"
+      url: "http://Cortex-VM-IP:9001"
+      auth {
+        type: "bearer"
+        key: "PASTE_YOUR_NEW_API_KEY"
+      }
+    }
+  ]
+}
+
