@@ -7,6 +7,7 @@
   - VM3: Log generator (Linux/Windows, Snort)
 - Ubuntu 20.04/22.04 LTS
 
+- `(images/awspi1.png)`
 ---
 
 ## Phase 1: ELK
@@ -15,7 +16,9 @@
 sudo apt update
 sudo apt install -y openjdk-11-jdk
 
-2. Install Elasticsearch
+
+
+3. Install Elasticsearch
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 sudo apt install apt-transport-https
 echo "deb https://artifacts.elastic.co/packages/8.x/apt stable main" | \
@@ -24,11 +27,11 @@ sudo apt update && sudo apt install elasticsearch
 sudo systemctl enable --now
 elasticsearch
 
-3. Install Kibana
+4. Install Kibana
 sudo apt install kibana
 sudo systemctl enable --now kibana
 
-4. Install Logstash / Filebeat
+5. Install Logstash / Filebeat
 sudo apt install filebeat
 sudo systemctl enable --now filebeat
 
