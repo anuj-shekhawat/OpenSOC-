@@ -6,8 +6,7 @@
   - VM2: TheHive, Cassandra, Cortex, MISP
   - VM3: Log generator (Linux/Windows, Snort)
 - Ubuntu 20.04/22.04 LTS
-
-
+---
 
 Ubuntu VM dedicated to ELK SIEM
 ![AWS Diagram](images/AWspic.png)
