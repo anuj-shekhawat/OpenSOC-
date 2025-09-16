@@ -40,14 +40,13 @@ Send the following JSON payload to create a test case:
   "tags": ["automatic", "creation"]
 }
 
-
-
 ----
 
-## TheHive → Cortex
----
 
-## Step 1: Create a Cortex user
+## TheHive → Cortex
+
+
+### 1. Create a Cortex user
 
 - Log in to Cortex UI.  
 - Create a new user with **Org-Admin Role**.  
@@ -55,7 +54,7 @@ Send the following JSON payload to create a test case:
 
 ---
 
-## Step 2: Configure Cortex in TheHive
+### 2. Configure Cortex in TheHive
 
 SSH into TheHive server and edit `/etc/thehive/application.conf`:
 
